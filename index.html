@@ -1,0 +1,487 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kopi Nana - Cafe</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Sendiri -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="logo navbar-brand" href="#home">
+                    <img src="assets/images/icons8-hot-coffe-48.png" alt="Logo Kopi Nana">
+                    <span>Kopi Nana</span>
+                </a>
+
+                <!-- Tombol Hamburger -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarMenu">
+
+                    <ul class="nav-menu navbar-nav ms-auto me-4">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Tentang</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontak</a>
+                        </li>
+
+                    </ul>
+
+                    <a href="#menu" class="btn">
+                        Pesan Sekarang
+                    </a>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="subtitle">SELAMAT DATANG DI</p>
+
+            <h1>Kopi Nana</h1>
+
+            <p class="description">
+                Tempat terbaik untuk menikmati kopi, makanan lezat,
+                dan suasana nyaman bersama orang-orang tersayang.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="btn">
+                    Lihat Menu
+                </a>
+
+                <a href="#about" class="btn-outline">
+                    Tentang Kami
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MENU ================= -->
+    <section class="menu" id="menu">
+
+        <div class="section-title">
+
+            <p>MENU FAVORIT</p>
+
+            <h2>Yang Wajib Kamu Coba</h2>
+
+        </div>
+
+
+        <div class="menu-container">
+
+
+            <!-- Cappuccino -->
+            <div class="card menu-card">
+
+                <img src="assets/images/cappucino.png" alt="Cappuccino">
+
+                <h3>Cappuccino</h3>
+
+                <p>
+                    Kopi espresso dengan susu lembut dan foam.
+                </p>
+
+                <span>Rp 30.000</span>
+
+            </div>
+
+
+            <!-- Kopi Susu Aren -->
+            <div class="card menu-card">
+
+                <img src="assets/images/kopi_susu_aren.png" alt="Kopi Susu Aren">
+
+                <h3>Kopi Susu Aren</h3>
+
+                <p>
+                    Espresso dicampur susu dan gula aren.
+                </p>
+
+                <span>Rp 28.000</span>
+
+            </div>
+
+
+            <!-- Mochachino -->
+            <div class="card menu-card">
+
+                <img src="assets/images/mochachino.png" alt="Mochachino">
+
+                <h3>Mochachino</h3>
+
+                <p>
+                    Perpaduan espresso, susu, dan sirup cokelat.
+                </p>
+
+                <span>Rp 21.000</span>
+
+            </div>
+
+
+            <!-- Latte -->
+            <div class="card menu-card">
+
+                <img src="assets/images/latte_baru.png" alt="Latte">
+
+                <h3>Latte</h3>
+
+                <p>
+                    Espresso dengan susu cair hangat.
+                </p>
+
+                <span>Rp 26.000</span>
+
+            </div>
+
+
+            <!-- Matcha Latte -->
+            <div class="card menu-card">
+
+                <img src="assets/images/matcha_latte.png" alt="Matcha Latte">
+
+                <h3>Matcha Latte</h3>
+
+                <p>
+                    Matcha premium dengan susu yang creamy.
+                </p>
+
+                <span>Rp 25.000</span>
+
+            </div>
+
+
+            <!-- Creamy Matcha -->
+            <div class="card menu-card">
+
+                <img src="assets/images/png-creamy-matcha-latte-with-foam_53876-864807.avif" alt="Creamy Matcha">
+
+                <h3>Creamy Matcha</h3>
+
+                <p>
+                    Matcha latte dengan tambahan lapisan krim kocok.
+                </p>
+
+                <span>Rp 23.000</span>
+
+            </div>
+
+
+            <!-- Strawberry Matcha -->
+            <div class="card menu-card">
+
+                <img src="assets/images/layered-matcha-strawberry-latte-drink-in-a-clear-plastic-cup-topped-with-fresh-fruit-isolated-on-transparent-background-png.webp" alt="Strawberry Matcha">
+
+                <h3>Strawberry Matcha</h3>
+
+                <p>
+                    Perpaduan stroberi, susu, dan matcha.
+                </p>
+
+                <span>Rp 30.000</span>
+
+            </div>
+
+
+            <!-- Matcha Affogato -->
+            <div class="card menu-card">
+
+                <img src="assets/images/pngtree-iced-matcha-latte-layered-green-tea-and-milk-drink-in-tall-png-image_16887200.webp" alt="Matcha Affogato">
+
+                <h3>Matcha Affogato</h3>
+
+                <p>
+                    Es krim vanila dengan seduhan matcha kental.
+                </p>
+
+                <span>Rp 30.000</span>
+
+            </div>
+
+
+            <!-- Chocolate Cake -->
+            <div class="card menu-card">
+
+                <img src="assets/images/Chocolate_Cake.png" alt="Chocolate Cake">
+
+                <h3>Chocolate Cake</h3>
+
+                <p>
+                    Kue cokelat lembut dengan rasa manis yang pas.
+                </p>
+
+                <span>Rp 29.000</span>
+
+            </div>
+
+
+            <!-- Croissant -->
+            <div class="card menu-card">
+
+                <img src="assets/images/Croissant.jpeg" alt="Croissant">
+
+                <h3>Croissant</h3>
+
+                <p>
+                    Croissant renyah dengan aroma butter yang nikmat.
+                </p>
+
+                <span>Rp 25.000</span>
+
+            </div>
+
+
+            <!-- Cheesecake -->
+            <div class="card menu-card">
+
+                <img src="assets/images/chesee.jpeg" alt="Cheesecake">
+
+                <h3>Cheesecake</h3>
+
+                <p>
+                    Kue berbahan dasar keju krim lembut.
+                </p>
+
+                <span>Rp 19.000</span>
+
+            </div>
+
+
+            <!-- Waffle -->
+            <div class="card menu-card">
+
+                <img src="assets/images/Waffle_Manis.png" alt="Waffle Manis">
+
+                <h3>Waffle Manis Nana</h3>
+
+                <p>
+                    Waffle hangat dengan topping es krim.
+                </p>
+
+                <span>Rp 28.000</span>
+
+            </div>
+
+
+            <!-- Fries -->
+            <div class="card menu-card">
+
+                <img src="assets/images/kentang_goreng.png" alt="Kentang Goreng">
+
+                <h3>Nana's Fries</h3>
+
+                <p>
+                    Kentang goreng gurih dengan saus tomat dan mayonaise.
+                </p>
+
+                <span>Rp 23.000</span>
+
+            </div>
+
+
+            <!-- Mix Platter -->
+            <div class="card menu-card">
+
+                <img src="assets/images/mix_plater.png" alt="Mix Platter">
+
+                <h3>Nana Mix Platter</h3>
+
+                <p>
+                    Camilan gorengan campur yang renyah dan gurih.
+                </p>
+
+                <span>Rp 30.000</span>
+
+            </div>
+
+
+            <!-- Cireng -->
+            <div class="card menu-card">
+
+                <img src="assets/images/cireng.jpeg" alt="Cireng Bumbu Rujak">
+
+                <h3>Cireng Bumbu Rujak</h3>
+
+                <p>
+                    Cireng kenyal-garing dengan cocolan saus rujak.
+                </p>
+
+                <span>Rp 19.000</span>
+
+            </div>
+
+
+            <!-- Chicken Wings -->
+            <div class="card menu-card">
+
+                <img src="assets/images/spicy-buffalo-chicken-wings-plate_84443-72696.avif" alt="Chicken Wings">
+
+                <h3>Chicken Wings</h3>
+
+                <p>
+                    Sayap ayam dengan saus gurih, manis, dan sedikit pedas.
+                </p>
+
+                <span>Rp 30.000</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <img src="assets/images/icons8-hot-coffe-48.png" alt="Logo Kopi Nana">
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="subtitle">TENTANG KAMI</p>
+
+            <h2>Secangkir Kopi, Sejuta Cerita</h2>
+
+            <p>
+                Kopi Nana adalah tempat untuk bersantai, belajar,
+                bekerja, atau berkumpul bersama teman.
+            </p>
+
+            <p>
+                Kami menyediakan berbagai pilihan kopi dan makanan
+                dengan bahan berkualitas serta suasana yang nyaman.
+            </p>
+
+            <a href="#contact" class="btn">
+                Hubungi Kami
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+
+            <p>HUBUNGI KAMI</p>
+
+            <h2>Secangkir Kopi Dan Senyuman Manis Dari Nana</h2>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <p>
+                <img src="assets/images/icons8-location-24.png" alt="">
+                Jl. Boulevard Jend. Sudirman No. 10
+            </p>
+
+            <p>
+                <img src="assets/images/icons8-calling-24.png" alt="">
+                0823-8633-9272
+            </p>
+
+            <p>
+                <img src="assets/images/icons8-calling-24.png" alt="">
+                0857-5855-8146
+            </p>
+
+            <p>
+                <img src="assets/images/icons8-email-24.png" alt="">
+                kopinana@email.com
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p>
+            © <span id="tahun"></span> Kopi Nana. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Tombol Back To Top -->
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript Sendiri -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
